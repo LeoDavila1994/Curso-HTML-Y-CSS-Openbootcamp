@@ -1,0 +1,32 @@
+/* Estilos para colores */
+
+.colores {
+  color: red;
+}
+
+.color-hexadecimal {
+  color: #BCF4F5;
+}
+
+.color-rgb {
+  color: rgb(100, 0, 200);
+}
+
+.color-rgba {
+  color: rgb(100, 0, 200, .5);
+}
+
+.fondo {
+  background-color: greenyellow;
+  background-image: url("https://img.freepik.com/free-vector/abstract-blue-geometric-shapes-background_1035-17545.jpg?w=2000");
+  background-position: center;
+}
+
+.tarjeta{
+  width: 300px;
+  height: 100px;
+  border-style: solid;
+  border-color: crimson;
+  border-width: 2px;
+  padding: 1rem;
+}
