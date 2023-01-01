@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400;500;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Alexandria', sans-serif;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  background-color: #161717;
+}
+
+header {
+  width: 100%;
+  max-width: 416px;
+  height: 70px;
+  padding: 48px 20px 0;
+  margin: 0 auto 2rem;
+}
+
+.logo-container {
+  width: 90px;
+  height: 22.5px;
+}
+
+.logo-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.content-container {
+  width: 100%;
+  max-width: 416px;
+  padding: 0 20px;
+  margin: auto;
+}
+
+.first-pharagrap {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 1.9rem;
+  color: white;
+}
+
+button {
+  cursor: pointer;
+}
+
+.google-btn {
+  background-color: #1A73E8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 0;
+  transition: 100ms ease-in-out;
+  margin-bottom: 1.9rem;
+}
+
+.google-btn span {
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.google-btn:hover {
+  background-color: rgba(26, 115, 232, 0.7);
+}
+
+.google-btn i {
+  margin: 0 12px;
+}
+
+.twitter-btn {
+  color: #6E6D7A;
+  background-color: #F2F2F2;
+  border: 0;
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin-left: 8px;
+  transition: 100ms ease-in-out;
+}
+
+.twitter-btn:hover {
+  background-color: rgb(228, 227, 227);
+}
+
+.divider-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300;
+  font-size: 0.9rem;
+  color: white;
+  margin-bottom: 1.9rem;
+}
+
+.divider-container  span {
+  padding: 0 15px;
+}
+
+.divider-line {
+  width: 100%;
+  height: 50%;
+  border-top: 1px solid white;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+form label {
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: white;
+}
+
+form input {
+  border: 1px solid transparent;
+  background-color: #212121;
+  border-radius: 7px;
+  padding: 12px 5px;
+  margin-bottom: 1.9rem;
+  outline: none;
+  transition: 100ms ease-in-out;
+}
+
+form input:hover {
+  background-color: #454045;
+  border: 1px solid #F2F2F2;
+  box-shadow: 0 0 5px rgba(234, 76, 137, 0.5);
+}
+
+form input:focus {
+  background-color: white;
+  border: 1px solid #F2F2F2;
+  box-shadow: 0 0 5px rgba(234, 76, 137, 0.5);
+}
+
+.password-input {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  font-size: 0.9rem;
+  text-decoration: none;
+  font-weight: 300;
+  cursor: pointer;
+  color: rgb(234,76,137);
+}
+
+button[type="submit"] {
+  border: none;
+  padding: 12px 0;
+  border-radius: 7px;
+  background-color: rgb(234,76,137);
+  color: white;
+  font-weight: 700;
+  font-size: 0.8rem;
+  margin-bottom: 1.9rem;
+  transition: 100ms ease-in-out;
+}
+
+button[type="submit"]:hover {
+  background-color: rgba(234, 76, 137, 0.7);
+}
+
+.last-pharagrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  color: white;
+}
+
