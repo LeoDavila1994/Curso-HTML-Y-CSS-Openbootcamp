@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  background-color: crimson;
+  border-bottom: 3px solid brown;
+  font-weight: 700;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.btn-modern {
+  transition: 400ms ease-in-out;
+}
+
+.btn-modern:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 15px 20px rgba(220, 20, 60, 0.4);
+  opacity: 0.9;
+  color: darkblue;
+}

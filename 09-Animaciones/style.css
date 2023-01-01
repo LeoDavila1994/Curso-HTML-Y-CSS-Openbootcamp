@@ -1,0 +1,68 @@
+.container {
+  margin-bottom: 2rem;
+  width: 400px;
+  height: 400px;
+  background-color: royalblue;
+  cursor: pointer;
+  transition: 200ms ease-in-out;
+}
+
+.content {
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  background-color: crimson;
+  transition: 200ms ease-in-out;
+}
+
+.container:hover .content{
+  transform: translateX(100%) rotate(360deg);
+  border-radius: 0;
+  background-color: rgb(133, 3, 145);
+}
+
+.container:hover {
+  border-radius: 50%;
+  transform: rotate(-360deg);
+  background-color: rgb(225, 196, 65);
+}
+
+.container2{
+  width: 400px;
+  height: 400px;
+  background-color: orangered;
+}
+
+.content2 {
+  width: 50%;
+  height: 50%;
+  background-color: greenyellow;
+  animation: rebote 2000ms forwards infinite;
+}
+
+.container2:hover .content2{
+  animation-play-state: paused;
+}
+
+@keyframes rebote {
+  0% {
+    transform: translateX(0%);
+  }
+
+  25%{
+    transform: translateX(100%);
+  }
+
+  50% {
+    transform: translate(100%, 100%);
+  }
+
+  75% {
+    transform: translate(0%, 100%);
+  }
+
+  100% {
+    transform: translateY(0%, 0%)
+  }
+
+};
