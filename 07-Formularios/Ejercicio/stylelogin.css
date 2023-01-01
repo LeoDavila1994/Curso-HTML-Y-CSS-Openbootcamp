@@ -138,7 +138,7 @@ form input:hover {
 }
 
 form input:focus {
-  background-color: white;
+  background-color: #454045;
   border: 1px solid #F2F2F2;
   box-shadow: 0 0 5px rgba(234, 76, 137, 0.5);
 }
@@ -178,5 +178,9 @@ button[type="submit"]:hover {
   justify-content: center;
   gap: 10px;
   color: white;
+}
+
+.last-pharagrap span {
+  font-size: 0.8rem;
 }
 
