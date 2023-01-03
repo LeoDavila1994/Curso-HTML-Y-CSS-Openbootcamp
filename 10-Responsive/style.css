@@ -1,0 +1,79 @@
+:root {
+  --elementos-principales: green;
+  --content: pink;
+  --pie: red
+}
+
+html {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+}
+
+.container {
+  width: 500px;
+  height: 500px;
+  background-color: black;
+  color: white;
+  display: grid;
+  grid-template-areas:
+  "header header header header"
+  "content1 content1 content2 content3"
+  "content4 content5 content5 content6"
+  "content7 content7 content8 content8";
+  gap: 5px;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-1 {
+  grid-area: header;
+  background-color: var(--elementos-principales);
+}
+
+.item-2 {
+  grid-area: content1;
+  background-color: var(--content);
+}
+
+.item-3 {
+  grid-area: content2;
+  background-color: var(--content);
+}
+
+.item-4 {
+  grid-area: content3;
+  background-color: var(--content);
+}
+
+.item-5 {
+  grid-area: content4;
+  background-color: var(--content);
+}
+
+.item-6 {
+  grid-area: content5;
+  background-color: var(--content);
+}
+
+.item-7 {
+  grid-area: content6;
+  background-color: var(--content);
+}
+
+.item-8 {
+  grid-area: content7;
+  background-color: var(--content);
+}
+
+.item-9 {
+  grid-area: content8;
+  background-color: var(--pie);
+}
+
