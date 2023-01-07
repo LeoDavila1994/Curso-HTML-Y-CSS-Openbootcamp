@@ -1,0 +1,16 @@
+@use "./variables" as var;
+
+@mixin txt-format {
+  color: var.$txt-title;
+  letter-spacing: 4px;
+  line-height: 5;
+  text-decoration: overline;
+  text-align: center;
+}
+
+@mixin list-item($color-list-item: whitesmoke) {
+  font-size: 1.2rem;
+  letter-spacing: 4px;
+  margin-bottom: 1rem;
+  color: $color-list-item;
+}

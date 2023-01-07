@@ -1,0 +1,122 @@
+.btn, .btn-2 {
+  border: 0;
+  padding: 1rem 1.5rem;
+  color: whitesmoke;
+  background-color: royalblue;
+  margin: 1rem 0;
+  border-radius: 5px;
+  border-bottom: 3px solid rgb(1, 63, 252);
+  letter-spacing: 4px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.btn:hover, .btn-2:hover {
+  opacity: 0.75;
+  cursor: pointer;
+}
+
+.btn-2 {
+  display: block;
+  background-color: crimson;
+  border-bottom: 3px solid rgb(252, 1, 1);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  padding: 2rem;
+}
+
+h1 {
+  color: crimson;
+  letter-spacing: 4px;
+  line-height: 5;
+  text-decoration: overline;
+  text-align: center;
+}
+
+p {
+  color: #298ddf;
+}
+
+span {
+  color: #298ddf;
+}
+
+h2 {
+  margin-bottom: 2rem;
+}
+
+.list {
+  background-color: rgb(180, 118, 238);
+  padding: 2rem;
+  margin-top: 4rem;
+  color: crimson;
+}
+.list ul {
+  list-style: none;
+}
+.list ul .item-4, .list ul .item-6 {
+  text-decoration: line-through;
+}
+.list ul li {
+  padding: 1rem 2rem;
+  background-color: rgba(0, 0, 0, 0.2);
+  transition: 200ms ease-in-out;
+}
+.list ul li:hover {
+  background-color: rgb(26, 26, 26);
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.item-1 {
+  font-size: 1.2rem;
+  letter-spacing: 4px;
+  margin-bottom: 1rem;
+  color: pink;
+}
+
+.item-2 {
+  font-size: 1.2rem;
+  letter-spacing: 4px;
+  margin-bottom: 1rem;
+  color: orange;
+}
+
+.item-3 {
+  font-size: 1.2rem;
+  letter-spacing: 4px;
+  margin-bottom: 1rem;
+  color: yellowgreen;
+}
+
+.item-4 {
+  font-size: 1.2rem;
+  letter-spacing: 4px;
+  margin-bottom: 1rem;
+  color: purple;
+}
+
+.item-5 {
+  font-size: 1.2rem;
+  letter-spacing: 4px;
+  margin-bottom: 1rem;
+  color: rgb(10, 48, 160);
+}
+
+.item-6 {
+  font-size: 1.2rem;
+  letter-spacing: 4px;
+  margin-bottom: 1rem;
+  color: whitesmoke;
+}
+
+/*# sourceMappingURL=styles.css.map */

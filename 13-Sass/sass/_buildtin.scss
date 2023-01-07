@@ -1,0 +1,58 @@
+
+@use "sass:string";
+@use "sass:math";
+@use "sass:list";
+
+// Funciones con strings
+
+@debug "hola";
+
+@debug str-index($string: "Papanamericano tu tu", $substring: "tu");
+
+$string: "Arial";
+
+$newstring: string.insert($string, $insert: " New Romance", $index: 6);
+
+@debug $newstring;
+
+@debug str-length($newstring);
+
+@debug str-slice($newstring, 2, 10);
+
+// Funciones con numeros
+
+@debug math.$e;
+
+@debug math.$pi;
+
+@debug math.ceil(12.8);
+
+@debug math.round(12.6);
+
+@debug math.round(12.4);
+
+@debug math.floor(12.8);
+
+@debug math.clamp(9, 2, 24);
+
+@debug math.clamp(10mm, 0.2cm, 1in);
+
+@debug math.max(2, 10, 25, 31, 15, 52, 12, 35, 8);
+
+@debug math.min(2, 10, 25, 31, 15, 52, 12, 35, 8);
+
+@debug math.abs(-8);
+
+@debug math.pow(5, 2);
+
+@debug math.pow(math.abs(-3), 3);
+
+// Funciones con listas
+
+$lista-1: 10px 10px 10px 10px;
+
+@debug $lista-1;
+
+@debug list.append($lista-1, 25px);
+
+// Funciones de selector

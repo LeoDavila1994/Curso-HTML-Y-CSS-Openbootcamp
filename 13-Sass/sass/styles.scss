@@ -1,0 +1,100 @@
+// Componentes
+
+@use "./componentes" as comp;
+
+// Mixins
+
+@use "./mixins" as mix;
+
+// Variables
+
+@use "./variables" as var;
+
+// Otros
+
+@use "./buildtin" as build;
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  padding: 2rem;
+}
+
+h1 {
+  @include mix.txt-format();
+}
+
+p {
+  color: var.$text-color;
+}
+
+span {
+  color: var.$text-color;
+}
+
+h2 {
+  margin-bottom: 2rem;
+}
+
+.list {
+  background-color: rgb(180, 118, 238);
+  padding: 2rem;
+  margin-top: 4rem;
+  color: var.$txt-title;
+
+  ul {
+    list-style: none;
+
+    .item-4, .item-6{
+      text-decoration: line-through;
+    }
+
+    li {
+      padding: 1rem 2rem;
+      background-color: rgba(0, 0, 0, 0.2);
+      transition: 200ms ease-in-out;
+
+      &:hover {
+        background-color: rgb(26, 26, 26);
+        color: whitesmoke;
+        cursor: pointer;
+      }
+    }
+
+  }
+
+}
+
+.item-1 {
+  @include mix.list-item(pink)
+}
+
+.item-2 {
+  @include mix.list-item(orange)
+}
+
+.item-3 {
+  @include mix.list-item(yellowgreen)
+}
+
+.item-4 {
+  @include mix.list-item(purple)
+}
+
+.item-5 {
+  @include mix.list-item(rgb(10, 48, 160))
+}
+
+.item-6 {
+  @include mix.list-item();
+}
+
+
